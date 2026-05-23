@@ -21,7 +21,7 @@ const FRAME_INTERVAL = 1 / TARGET_FPS;
 export default function WaitingSimulatorV1() {
   const [videoSrc, setVideoSrc] = useState(null);
   const [duration, setDuration] = useState(0);
-  const [t1, setT1] = useState(2);
+  const [t1, setT1] = useState(3);
   const [exitTime, setExitTime] = useState(4);
   const [speed, setSpeed] = useState(1);
   const [isForceEnded, setIsForceEnded] = useState(false);
